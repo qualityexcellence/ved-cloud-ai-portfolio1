@@ -1,0 +1,46 @@
+ved-cloud-ai-portfolio/
+│
+├── README.md                      # Overview + Resume + Project links
+│
+├── 01-vertex-ai-mortgage-risk/
+│   ├── data/                      # sample anonymized data (or schema only)
+│   ├── feature_engineering/
+│   ├── model/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── pipeline.yaml
+│   ├── deployment/
+│   │   ├── vertex_endpoint_setup.md
+│   │   ├── request_example.json
+│   └── README.md
+│
+├── 02-bigquery-data-lake/
+│   ├── dataflow/
+│   │   ├── etl_pipeline.py
+│   ├── schemas/
+│   │   ├── loan_schema.json
+│   ├── queries/
+│   │   ├── analytic_queries.sql
+│   └── README.md
+│
+├── 03-cloudrun-los-automation/
+│   ├── services/
+│   │   ├── los-event-processor/
+│   │   │   ├── main.py
+│   │   ├── fee-validation-service/
+│   ├── pubsub/
+│   │   ├── trigger-config.md
+│   └── README.md
+│
+├── 04-mlops/
+│   ├── cicd/
+│   │   ├── github-actions-mlops.yml
+│   ├── model-monitoring/
+│   │   ├── drift_detection.py
+│   └── README.md
+│
+└── 05-architecture-diagrams/
+    ├── vertex-ai-architecture.png
+    ├── data-lake-architecture.png
+    ├── los-automation-architecture.png
+    └── README.md
